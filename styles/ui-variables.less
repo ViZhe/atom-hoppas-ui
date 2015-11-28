@@ -1,0 +1,100 @@
+
+@blueDark: #4E5862;
+@red: #C55B4E;
+@green: #86C797;
+@yellow: #E1AE69;
+@lightyellow: #ffe792;
+@blue: #55B5DB;
+@purple: #A074C4;
+
+// Colors
+
+@text-color: #aaa;
+@text-color-subtle: #555;
+@text-color-highlight: #fff;
+@text-color-selected: @text-color-highlight;
+
+@text-color-info: @blue;
+@text-color-success: @green;
+@text-color-warning: @yellow;
+@text-color-error: @red;
+
+@text-color-ignored: @text-color-subtle;
+@text-color-added: @text-color-success;
+@text-color-renamed: @text-color-info;
+@text-color-modified: @text-color-warning;
+@text-color-removed: @text-color-error;
+
+@background-color-info: @blue;
+@background-color-success: @green;
+@background-color-warning: @yellow;
+@background-color-error: @red;
+@background-color-highlight: rgba(255, 255, 255, 0.07);
+@background-color-selected: #4182C4;
+
+@app-background-color: #101010;
+
+@base-background-color: @app-background-color;
+@base-border-color: #444;
+
+@pane-item-background-color: @base-background-color;
+@pane-item-border-color: rgba(0, 0, 0, 0.5);
+
+@input-background-color: #212224;
+@input-border-color: @base-border-color;
+
+@tool-panel-background-color: @base-background-color;
+@tool-panel-border-color: @base-border-color;
+
+@inset-panel-background-color: #161719;
+@inset-panel-border-color: @base-border-color;
+
+@panel-heading-background-color: #43484d;
+@panel-heading-border-color: fadein(@base-border-color, 10%);
+
+@overlay-background-color: #202123;
+@overlay-border-color: @background-color-highlight;
+
+@button-background-color: #43484d;
+@button-background-color-hover: lighten(@button-background-color, 5%);
+@button-background-color-selected: #5c6064;
+@button-border-color: @base-border-color;
+
+@tab-bar-background-color: @base-background-color;
+@tab-bar-border-color: darken(@tab-background-color-active, 10%);
+@tab-background-color: lighten(@base-background-color, 5%);
+@tab-background-color-active: #14171A;
+@tab-border-color: #484848;
+
+@tree-view-background-color: @base-background-color;
+@tree-view-border-color: @tool-panel-border-color;
+
+@scrollbar-background-color: #222425; // Needs to be opaque -> atom/atom/issues/4578
+@scrollbar-color: rgba(92, 92, 92, 0.5);
+
+@ui-site-color-1: @background-color-success; // green
+@ui-site-color-2: @background-color-info; // blue
+@ui-site-color-3: @background-color-warning; // orange
+@ui-site-color-4: #db2ff4; // purple
+@ui-site-color-5: #f5e11d; // yellow
+
+
+// Sizes
+
+@font-size: 11px;
+@input-font-size: 14px;
+
+@disclosure-arrow-size: 12px;
+
+@component-padding: 10px;
+@component-icon-padding: 5px;
+@component-icon-size: 16px;
+@component-line-height: 25px;
+@component-border-radius: 2px;
+
+@tab-height: 30px;
+
+
+// Other
+
+@font-family: 'Liberation Sans', Ubuntu, Cantarell, sans-serif;
