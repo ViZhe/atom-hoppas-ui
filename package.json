@@ -1,7 +1,7 @@
 {
   "name": "atom-hoppas-ui",
   "theme": "ui",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "description": "Atom Dark UI theme",
   "repository": "https://github.com/hoppas/atom-hoppas-ui",
   "license": "MIT",
