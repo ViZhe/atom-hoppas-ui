@@ -3,7 +3,15 @@
   "theme": "ui",
   "version": "0.0.2",
   "description": "Atom Dark UI theme",
-  "repository": "https://github.com/hoppas/atom-hoppas-ui",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/hoppas/atom-hoppas-ui.git"
+  },
+  "readmeFilename": "README.md",
+  "bugs": {
+    "url": "https://github.com/hoppas/atom-hoppas-ui/issues"
+  },
+  "homepage": "https://github.com/hoppas/atom-hoppas-ui",
   "license": "MIT",
   "engines": {
     "atom": "^1.0.0"
